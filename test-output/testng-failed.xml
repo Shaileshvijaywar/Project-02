@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test-Runner-2(failed)">
+    <classes>
+      <class name="com.organization.ReadMultipleDataProviderTest">
+        <methods>
+          <include name="amconfiguration"/>
+          <include name="acconfiguration"/>
+          <include name="asconfiguration"/>
+          <include name="bmconfiguration"/>
+          <include name="bsconfiguration"/>
+          <include name="readmultipledata"/>
+          <include name="bcconfiguration"/>
+        </methods>
+      </class> <!-- com.organization.ReadMultipleDataProviderTest -->
+    </classes>
+  </test> <!-- Test-Runner-2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
