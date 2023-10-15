@@ -13,7 +13,7 @@ public class ReadDataFromCMDLine {
 		String Uvalue = System.getProperty("url");
 		System.out.println(Uvalue);
 		
-		String Pvalue01 = System.getProperty("password");
-		System.out.println(Pvalue01);
+		String P = System.getProperty("password");
+		System.out.println(P);
 	}
 }
